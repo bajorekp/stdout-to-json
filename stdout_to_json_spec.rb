@@ -106,7 +106,6 @@ describe StdoutToJson do
   end
 end
 
-
 describe "Integration Tests" do
   subject(:output) { `ruby stdout_to_json.rb '#{command}'` }
 
